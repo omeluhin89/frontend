@@ -1,0 +1,11 @@
+.welcome {
+    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: #000000;
+    position: relative;
+
+    width: 1600px;
+    height: 300px;
+}
