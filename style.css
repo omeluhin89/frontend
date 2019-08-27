@@ -50,6 +50,41 @@
     margin: 0 auto;
 }
 
+.container {
+    display: flex;
+    position: relative;
+}
+
+.navigation-list {
+    top: 45px;
+    right: 245px;
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    z-index: 2;
+    color: #ffffff;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-family: OpenSans-Regular;
+    font-size: 13px;
+    line-height: 36px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.navigation-list-item:nth-child(n+2) {
+    margin-left: 10px;
+}
+
+.logo {
+    top: 35px;
+    left: 245px;
+    position: fixed;
+    z-index: 1;
+    width: 180px;
+}
+
 body {
     margin: 0;
 }
