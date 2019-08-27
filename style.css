@@ -63,11 +63,10 @@
     position: fixed;
     z-index: 2;
     color: #ffffff;
+    line-height: 36px;
+
     list-style-type: none;
     text-transform: uppercase;
-    font-family: OpenSans-Regular;
-    font-size: 13px;
-    line-height: 36px;
     margin: 0;
     padding: 0;
 
@@ -78,11 +77,21 @@
 }
 
 .logo {
+
     top: 35px;
     left: 245px;
     position: fixed;
     z-index: 1;
     width: 180px;
+}
+
+.link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: OpenSans-Regular;
+    font-size: 13px;
+    color: #ffffff;
+
 }
 
 body {
