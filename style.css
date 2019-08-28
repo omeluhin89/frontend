@@ -19,9 +19,9 @@
     background-size: cover;
     background-color: #000000;
     position: relative;
-
     padding-top: 190px;
     padding-bottom: 135px;
+    margin-bottom: 65px;
     min-width: 1600px;
 }
 
@@ -66,7 +66,6 @@
     line-height: 36px;
 
     list-style-type: none;
-    text-transform: uppercase;
     margin: 0;
     padding: 0;
 
@@ -85,16 +84,84 @@
     width: 180px;
 }
 
-.link {
+.link-menu {
     text-decoration: none;
     text-transform: uppercase;
     font-family: OpenSans-Regular;
     font-size: 13px;
     color: #ffffff;
+}
 
+.link-team {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: OpenSans-Bold;
+    font-size: 14px;
+    color: #ae9e5f;
+}
+
+.new {
+    display: flex;
+    width: 950px;
+}
+
+.date-author {
+    display: flex;
+    font-size: 12px;
+    font-family: OpenSans-Regular;
+    margin: 25px 0 0;
+    padding: 0;
+}
+
+.teams-list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.teams-list-item:nth-child(n+2) {
+    margin-left: 10px;
+}
+
+.name-new {
+    text-transform: uppercase;
+    font-family: OpenSans-Bold;
+    font-size: 20px;
+    margin: 15px 0 0;
+    padding: 0;
+
+}
+
+.date-author-text:nth-child(n+2) {
+    margin-left: 10px;
+}
+
+.text-new {
+    font-family: OpenSans-Regular;
+    font-size: 15px;
+    line-grid-mode: 22px;
+    margin: 41px 0 0;
+    padding: 0;
+}
+
+.content-new {
+    margin-left: 30px;
+}
+
+.new {
+    margin-left: 245px;
+}
+
+.new:nth-child(n+2) {
+    margin-top: 60px;
 }
 
 body {
     margin: 0;
+}
+
+span {
+    font-weight: bold;
 }
 
