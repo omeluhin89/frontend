@@ -50,18 +50,18 @@
     margin: 0 auto;
 }
 
-.container {
-    display: flex;
-    position: relative;
+.navigation {
+    position: absolute;
+    top: 45px;
+    right: 245px;
+    z-index: 1;
+
 }
 
 .navigation-list {
-    top: 45px;
-    right: 245px;
+
     display: flex;
     flex-wrap: wrap;
-    position: fixed;
-    z-index: 2;
     color: #ffffff;
     line-height: 36px;
 
@@ -79,7 +79,7 @@
 
     top: 35px;
     left: 245px;
-    position: fixed;
+    position: absolute;
     z-index: 1;
     width: 180px;
 }
@@ -102,7 +102,7 @@
 
 .new {
     display: flex;
-    width: 950px;
+    width: 800px;
 }
 
 .date-author {
@@ -150,7 +150,7 @@
 }
 
 .new {
-    margin-left: 245px;
+    margin-left: 350px;
 }
 
 .new:nth-child(n+2) {
