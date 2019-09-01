@@ -116,6 +116,12 @@
     color: #000000;
 }
 
+.social-networks-link {
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
 .category-list-item {
     height: 47px;
     border-bottom: 2px;
@@ -128,6 +134,71 @@
     border: 4px solid #eeeeee;
     margin: 0 5px 5px 0;
     padding: 6px 11px;
+}
+
+.social-networks {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 30px 0 30px 0;
+    justify-content: center;
+    background-color: #f4f7f6;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    font-family: OpenSans-Bold;
+    color: #cdcdcd;
+    font-size: 12px;
+    margin-top: 70px;
+}
+
+.icon-size {
+    width: 40px;
+    height: 40px;
+    margin: 0 25px 0 25px;
+}
+
+.twitter {
+    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/004-twitter.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.pinterest {
+    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/001-pinterest.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.facebook {
+    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/002-facebook-logo.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.tumblr {
+    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/003-tumblr.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.instagram {
+    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/005-instagram.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.footer {
+    margin: 70px 350px 35px 350px;
+    min-width: 1120px;
 }
 
 .tags-list {
