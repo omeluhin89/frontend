@@ -155,6 +155,7 @@
     display: block;
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 .teams-list {
@@ -225,20 +226,26 @@
 }
 
 .title {
+    position: relative;
     font-family: OpenSans-Bold;
     font-size: 14px;
     line-height: 18px;
     color: #000000;
     text-transform: uppercase;
-    padding: 0 0 25px 0;
+    padding: 0 0 40px 0;
     margin: 0;
     text-align: center;
 }
 
 .title::after {
     content: "";
-    width: 100px;
-    height: 50px;
+    display: block;
+    position: absolute;
+    min-width: 65px;
+    min-height: 50px;
+    border-bottom: 3px solid #e1d9bd;
+    top: -26px;
+    right: 101px;
 }
 
 .title-post {
